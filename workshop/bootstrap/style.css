@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #1b1b1b;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-expand-lg {
+    padding-top: 3%;
+}
+
+.sup {
+    font-size: 14px;
+    color: white;
+    top: -30px;
+}
+.header{
+    padding-top: 17%;
+    padding-left: 15%;
+}
+.cap {
+    padding-top: 10%;
+    
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .cap {
+      width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 580px) {
+    .cap {
+      width: 100%;
+    }
+  }

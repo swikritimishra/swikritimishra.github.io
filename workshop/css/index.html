@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 0px;
+  line-height: 1.25;
+  font-family: sans-serif;
+  }
+  h2 {
+  font-family: "futura-pt",sans-serif;
+  font: 600 100%/1.25
+  }
+  .p{
+    font-family: "futura-pt",sans-serif;
+  }
+
+  .logo-books {
+    background: url(books.svg) no-repeat;
+    display: block;
+    height: 96px;
+    margin: 0 auto 1em auto;
+    width: 150px;
+}
+body {
+       font:400 100%/1.5 "soleil",sans-serif;
+}
+  
+  div.a {
+  text-align: center;
+  color: #363835;
+}
+div.c {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    margin: auto
+}
+div.d {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+    table,tr,th {
+      border: 1px solid #363835;
+      padding: 10px;
+      border-collapse: collapse;
+      /* width: 100%; */
+    }
+    table {
+  width: 50%;
+  border-radius: 30px;
+    }
+  th {
+  height: 40px;
+}
+   th:hover {
+      background-color: #363835;
+      color: #F3D65E;
+    }
+    .centerTable { margin: 0px auto; }
+    .img-container {
+        text-align: center;
+        display: block;
+      }
+      body {text-align:center; margin: 0px;}
+
+#example2 {
+  padding: 50px;
+  background-color: #F3D65E;
+  background-repeat: no-repeat;
+  background-size: 400px 100px;
+}
+</style>
+</head>
+<body >
+ <div id="example2">
+   <div class="img-container"> 
+    <span class="logo-books"></span>
+  </div>
+  <div class="a">
+  <h1>Css Workshop</h1>
+  <p style = "font-family: sans-serif;">Made by<u>Swikriti Mishra</u> </p>
+</div>
+<table class="centerTable">
+      <tr>
+        <th style="background-color: black;background-color:  #363835;color:  #F3D65E;">Organizing</th>
+        <th>Naming</th>
+        <th>Using Sass</th>
+      </tr>
+    </table>
+</div>
+<div class="c">
+<h2>Always Start with Normalize</h2>
+<div class="d">
+<p>Browsers will render your CSS differently. To avoid this, 
+    it’s a good idea to use a modern alternative to a reset like <u>normalize.css</u>, 
+    which will render elements more consistently cross-browser. 
+    Remember to include it as-is before your stylesheet.</p>
+    </div>
+  </div>
+</body>
+</html>
