@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Lora,serif;
+  
+   
+}
+.page-head .head-logo svg {
+    width: 80%;
+}
+
+body, html {
+    font-family: Lora, serif;
+    min-height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar{
+    background-color: #e6eae9;
+}
+.navbar-nav {
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    position: relative;
+    padding: 3vw 5vw;
+}
+
+.nav-menu li {
+    padding-left: 30px;
+    padding-right: 30px
+}
+  .selected {
+    border-bottom: 1px solid #232323;
+  }
+  .topnav a:hover {
+    border-bottom: 1px solid #232323;
+  }
+ 
+
+   section.header {
+    background-position: 95% 15%;
+    margin-top: 0;
+    padding-top: 8vw;
+}
+ section.header {
+    background-color: #e6eae9;
+    background-image: url(https://www.snapsound.com/static/img/moon-birds.png);
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: 84% 23%;
+    margin-top: 0;
+    padding-top: 6vw;
+ }
+ section.header .header h1 {
+    font-size: 4vw;
+
+}
+section.header .header p {
+    margin-top: 1.3em;
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.5;
+}
+ section.header .banner {
+    margin-top: 8vw;
+}
+ section.header .banner {
+    position: relative;
+    margin-top: 15vw;
+    background-image: url(	https://www.snapsound.com/static/img/cloud-background.gif);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+ }
+ section.header .banner>div img {
+    margin-top: 25%;
+    -webkit-transform: unset;
+    transform: unset;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+ section.header .banner svg.bird {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: -23vw;
+    z-index: 4;
+ }
+ * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+ .header .contact-details .number {
+    color: #e79393;
+}
+.header .contact-details {
+    font-size: 2.5vw;
+}
+ section.header .header .contact-details .email {
+    color: #eba81c;
+}
+p a {
+    text-decoration: underline;
+}
+ section.header .header .contact-details {
+    font-size: 2.5vw;
+}
+.page-foot {
+    padding: 10vw 13vw 0vw;
+    
+    
+}
+ .footer-content-logo {
+    width: 21vw;
+    text-align: left;
+}
+
+.footer-content-logo p {
+    font-size: .9vw;
+}
+.footer-content-navigation h5 {
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 41%;
+    line-height: 1.5;
+    
+}
+
+ .footer-content {
+    width: 100%;
+    margin-top: 3em;
+    padding: 0 11vw;
+    align-items: unset;
+    justify-content: space-between;
+}
+
+.footer-content-logo svg {
+    width: 50%;
+}
+ .footer-content-navigation a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 0em;
+    padding: 0 2vw;
+}
+.footer-content-navigation a {
+    font-weight: 400;
+    line-height: 1.8;
+    color: #232323;
+}
+a {
+    color: #232323;
+}
+
+
+.footer-content-navigation a {
+    font-weight: 400;
+    line-height: inherit;
+}
+.footer-content-navigation a{
+    list-style: none;
+}
+
+  .selected {
+    border-bottom: 1px solid #232323;
+  }
+
+  .footer-content-navigation a span:hover {
+    border-bottom: 1px solid #232323;
+
+  }
+  /* .footer-content-navigation :active {
+    border-bottom: 1px solid #232323;
+  } */
+ 
+.footer-content{
+    padding-bottom: 10%;
+}
+
+
+
+

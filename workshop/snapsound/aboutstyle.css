@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Lora,serif;
+}
+body{
+    background-color: #f7f6ee;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+  
+}
+
+.page-head .head-logo svg {
+    width: 80%;
+}
+.navbar-nav {
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    position: relative;
+    padding: 3vw 5vw;
+}
+.nav-menu li {
+    padding-left: 30px;
+    padding-right: 30px
+}
+  .selected {
+    border-bottom: 1px solid #232323;
+  }
+  .topnav a:hover {
+    border-bottom: 1px solid #232323;
+  
+  }
+
+
+
+   section.header .header {
+    text-align: center;
+    width: 100%;
+} 
+
+
+.header1{
+    margin-top: 20px;
+    padding: 20px;
+}
+ .navbar-brand{
+    font-size: 35px;
+} 
+
+
+
+
+.page-body section.header1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    margin-top: 6vw;
+}
+
+
+
+section.header .header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+text-align: left;
+margin-top: 6vw;
+}
+section.header .header {
+    text-align: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 100px;
+}
+section.header .header h1 {
+    width: 100%;
+    font-size: 3.5vw;
+    margin-left: -4px;
+
+}
+section.header .header p {
+    margin-top: 1.3em;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+section.header{
+    background-image:url(https://www.snapsound.com/static/img/about-moon.png);
+    background-repeat: no-repeat;
+    background-size: 43% auto;
+    background-position: 10% 26%;
+    margin-top: 8vw;
+
+}
+.banner{
+    background-image:url(https://www.snapsound.com/static/img/about-sky.gif);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 10%;
+}
+
+ .block:first-child svg.greenblob {
+    position: absolute;
+    top: 290%;
+    left: 28%;
+    width: 21%;
+    opacity: .5;
+
+}
+
+
+.collage img {
+    max-width: 100%;
+}
+.collage .block:first-child svg.yellowdots {
+    position: absolute;
+    bottom: -165vw;
+    left: -10vw;
+    width: 40%;
+    opacity: 1;
+}
+.img-team{
+    margin-left: 9% ;
+}
+
+#just{
+    margin-top: -80%;
+    margin-left: 102%;
+}
+
+ .img-text {
+    margin-top: -50%;
+    margin-left: 24%;
+ }
+ .img-text h2{
+    font-size: 3.3vw;
+    margin-bottom: 1.3em;
+    letter-spacing: -.1px;
+    position: relative;
+    width: 80%;
+}
+.img-text h2::after {
+    content: "";
+    width: 35px;
+    height: 3px;
+    background-color: #232323;
+    position: absolute;
+    bottom: -0.6em;
+    left: 5%;
+}
+
+.img-text h2 p {
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -.1px;
+    margin-top: 1em;
+    width: 100%;
+    padding-bottom:  50%;
+}
+
+.zero{
+    margin-top: 50%;
+}
+
+.block:first-child svg.pinkblob {
+    top: 244vw;
+    margin-top: -11%;
+    width: 18%;
+    display: block;
+    position: absolute;
+    margin-left: -8%;
+    opacity: .5;
+}
+ .block:last-child svg.greenleaf {
+    position: absolute;
+    margin-left: 25%;
+    bottom: -251vw;
+    width: 20%;
+    opacity: .5;
+}
+.img-team svg.bluedots {
+    position: absolute;
+    margin-top: -39%;
+    width: 50%;
+    right: -12vw;
+    opacity: 1;
+    left: unset;
+}
+ 
+.friend {
+    padding-top: 30%;
+    margin-left: 12%;
+} 
+.friend  h2 {
+    margin-bottom: 1.3em;
+    font-size: 3.5vw;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1.9px;
+    position: relative;
+    display: block;
+    font-family: Libre Baskerville,serif;
+
+}
+
+.friend h2::after {
+    content: "";
+    width: 35px;
+    height: 3px;
+    background-color: #232323;
+    position: absolute;
+    bottom: -0.6em;
+    left: 1%;
+}
+.friend p {
+font-size: 1.5vw;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: -.1px;
+margin-top: 1em;
+width: 100%;
+}
+
+.cover{
+padding-top: 5%;
+margin-left: 12%;
+}
+.Director .block-quote .round {
+    width: 5vw;
+    margin-left: 0.1vw;
+    border-radius: 100%;
+    margin-top: 13%;
+}
+.Director p {
+    width: 80%;
+    padding: 2.5vw 0;
+    background-size: 2.4vw auto;
+    background-position: 0 0,98% 98%;
+}
+
+.Director p {
+    font-style: italic;
+    line-height: 1.8; 
+    width: 100%;
+    padding: -3vw ;
+    background-image: url(image/mark-open1.svg),url(image/mark-close2.svg);
+    background-position: 0 0,98% 97%;
+    background-repeat: no-repeat;
+    background-size: 2.8vw auto;
+}
+.Director p.small {
+    font-size: 1.25vw;
+    width: 75%;
+}
+
+.Director h2{
+    margin-top: 2vw;
+    font-family: Libre Baskerville,serif;
+    margin-bottom: 2vw;
+    font-size: 2.4vw;
+    line-height: 1.2;
+    letter-spacing: -.1px;
+    position: relative;
+ 
+    font-weight: 400;
+}
+.Director h4{
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: Montserrat,serif;
+    font-weight: 600;
+} 
+.popper {
+    margin-left: 11%;
+    margin-top: -1%;
+}
+  .lady2{
+      margin-bottom: 2vw;
+      width: 25%;
+ }
+ .lady2 svg.pinkleaf {
+    position: absolute;
+    bottom: -390vw;
+    left: 6vw;
+    width: 15vw;
+    opacity: .3;
+}
+ .lady3 {
+     margin-left:-4%;
+margin-bottom: 2vw;
+   
+}
+.lady4{
+    margin-left: -2%;
+} 
+.lady4 svg.blueleaf {
+    position: absolute;
+    top: 407vw;
+    right: 10.5vw;
+    width: 15vw;
+    opacity: .3;
+} 
+
+.Producer {
+    padding-top: 13%;
+    margin-left: 12%;
+}
+.Producer svg.greenblob {
+    position: absolute;
+    bottom: -419vw;
+    left: 42vw;
+    width: 10vw;
+    opacity: .3;
+}
+.lynn h2 { 
+font-size: 2vw;
+width: 50%;
+line-height: 1.2;
+margin-top: 8%;
+letter-spacing: 1.9px;
+position: relative
+}
+
+
+.lynn h4 {
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: Montserrat,serif;
+    font-weight: 600;
+}
+  
+  
+.lynn{
+    align-self: center;
+    padding-top: 12%;
+    margin-bottom: 2vw;
+    margin-left: -17px;
+    }
+
+    .lynn p {
+        width: 80%;
+        padding: 2.5vw 0;
+        background-size: 2.4vw auto;
+        background-position: 0 0,98% 98%;
+    }
+    
+    .lynn p {
+        font-style: italic;
+        line-height: 1.8; 
+        width: 100%;
+        padding: -3vw ;
+        background-image: url(image/mark-open1.svg),url(image/mark-close2.svg);
+        background-position: 0 0,98% 97%;
+        background-repeat: no-repeat;
+        background-size: 2.8vw auto;
+    }
+    .lynn p {
+        font-size: 1.30vw;
+        width: 57%;
+    }
+  
+  /* Create two equal columns that floats next to each other */
+  .bone {
+    float: left;
+    width: 50%;
+    padding: 3px;
+  }
+   .bone2 img {
+    padding: 2%;
+    margin-top: 8px;
+    vertical-align: middle;
+    
+  }
+  .bone2 svg.pinkleaf {
+    position: absolute;
+    bottom: 24vw;
+    left: -8vw;
+    width: 15vw;
+    opacity: .3;
+}
+  .bone3 svg.blueleaf {
+    position: absolute;
+    top: 1vw;
+    right: -35vw;
+    width: 15vw;
+    opacity: .3;
+}
+  .bone3 img {
+    padding: 2%;
+    margin-top: 8px;
+    margin-left: -10%;
+    vertical-align: middle;
+  
+  }
+  .bone3 svg.greenblob {
+    position: absolute;
+    bottom: -3vw;
+    left: 36vw;
+    width: 10vw;
+    opacity: .3;
+}
+   .bone {
+      margin-left: 7%;
+      margin-top: 0%;
+      position: relative;
+  }
+  
+  /* Clear floats after the columns */
+  .bone:after {
+    content: "";
+    display: table;
+   clear: both;
+  }
+    /* Create two equal columns that floats next to each other */
+
+ /* Create two equal columns that floats next to each other */
+ .white {
+    float: left;
+   
+  }
+   .white-1 img {
+    padding: 2%;
+    margin-top: 8px;
+    vertical-align: middle;
+    
+  }
+  .white-2 img {
+    padding: 2%;
+    margin-top: 8px;
+    margin-left: -23%;
+    vertical-align: middle;
+  
+  }
+   .white {
+      margin-left: 10%;
+      margin-top: 15%;
+      position: relative;
+  }
+  
+  /* Clear floats after the columns */
+  .white:after {
+    content: "";
+    display: table;
+   clear: both;
+  }
+ .quote-wrap {
+  text-align: right;
+  width: 40%;
+  align-self: start;
+  margin-top: 3.5vw;
+  margin-left: 12.5vw;
+}
+.white-1 h2{
+font-size: 2vw;
+line-height: 1.2;
+margin-left: 46%;
+width: auto;
+margin-top: 2vw;
+}
+.white-1 h4 {
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 58%;
+    font-family: Montserrat,serif;
+    font-weight: 600;
+}
+
+
+.white-1 p {
+padding: 2.5vw 0;
+font-style: italic;
+line-height: 2.2;
+width: 53%;
+margin-left: 19%;
+text-align: right;
+background-image: url(image/mark-open1.svg),url(image/mark-close2.svg);
+background-position: 0 0,100% 96%;
+background-repeat: no-repeat;
+background-size: 2.3vw auto;
+}
+
+.page-foot {
+    padding: 10vw 13vw 0vw;
+    
+    
+}
+ .footer-content-logo {
+    width: 21vw;
+    text-align: left;
+}
+
+.footer-content-logo p {
+    font-size: .9vw;
+}
+.footer-content-navigation h5 {
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 41%;
+    line-height: 1.5;
+    
+}
+
+ .footer-content {
+    width: 100%;
+    margin-top: 3em;
+    padding: 0 11vw;
+    align-items: unset;
+    justify-content: space-between;
+}
+
+.footer-content-logo svg {
+    width: 50%;
+}
+ .footer-content-navigation a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 0em;
+    padding: 0 2vw;
+}
+.footer-content-navigation a {
+    font-weight: 400;
+    line-height: 1.8;
+    color: #232323;
+}
+a {
+    color: #232323;
+}
+
+
+.footer-content-navigation a {
+    font-weight: 400;
+    line-height: inherit;
+}
+.footer-content-navigation a{
+    list-style: none;
+}
+
+  .selected {
+    border-bottom: 1px solid #232323;
+  }
+
+  .footer-content-navigation a span:hover {
+    border-bottom: 1px solid #232323;
+
+  }
+  /* .footer-content-navigation :active {
+    border-bottom: 1px solid #232323;
+  } */
+ 
+.footer-content{
+    padding-bottom: 10%;
+}
+
+
+/* 
+media query */
+@media screen and (max-width: 400px) {
+    .bone3 {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    div.example {
+      font-size: 50px;
+  
+    }
+  }
