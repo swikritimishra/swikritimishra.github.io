@@ -1,76 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Lora,serif;
 }
-
 body{
     background-color: #f7f6ee;
-    color: #232323;
-    
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+  
 }
-* {
-    box-sizing: border-box;
-    
-  }
-  .nav-link {
-    display: block;
-    padding: 0.3rem 1rem;
-    
-    color: #232323;
-   
 
-  }
-
-  .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 2.5rem;
-    padding-bottom: 0.3rem;
-    font-size: 1.4vw;
-    font-weight: 400;
-    line-height: 1.2;
-    color: #232323;
-    margin-left: 5vw;
-    opacity: 1;
-   border-bottom: 1px solid transparent;
+.page-head .head-logo svg {
+    width: 80%;
 }
-.page-head {
+.navbar-nav {
     grid-area: a;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
     position: relative;
- }
-
-.page-head .head-logo {
-    display: flex;
-    align-items: center;
-    width: 18vw;
-    line-height: 1.2;
+    padding: 3vw 5vw;
 }
-
 .nav-menu li {
     padding-left: 30px;
     padding-right: 30px
-} 
+}
   .selected {
     border-bottom: 1px solid #232323;
-  } 
- .topnav a:hover {
+  }
+  .topnav a:hover {
     border-bottom: 1px solid #232323;
-    color: #232323;
-    background-color: transparent;
   
   }
+
+
 
    section.header .header {
     text-align: center;

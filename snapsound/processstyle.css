@@ -9,6 +9,7 @@
 body{
     background-color: #f7f6ee;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 
 .page-head .head-logo svg {
@@ -34,9 +35,7 @@ body{
     border-bottom: 1px solid #232323;
   
   }
-  /* .topnav :active {
-    border-bottom: 1px solid #232323;
-  } */
+
    section.header .header {
     text-align: center;
     width: 100%;

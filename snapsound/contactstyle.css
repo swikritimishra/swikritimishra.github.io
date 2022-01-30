@@ -5,13 +5,19 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Lora,serif;
+  
    
 }
 .page-head .head-logo svg {
     width: 80%;
 }
 
-
+body, html {
+    font-family: Lora, serif;
+    min-height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
 .navbar{
     background-color: #e6eae9;
 }
@@ -24,6 +30,7 @@
     position: relative;
     padding: 3vw 5vw;
 }
+
 .nav-menu li {
     padding-left: 30px;
     padding-right: 30px
@@ -34,9 +41,7 @@
   .topnav a:hover {
     border-bottom: 1px solid #232323;
   }
-  /* .topnav :active {
-    border-bottom: 1px solid #232323;
-  } */
+ 
 
    section.header {
     background-position: 95% 15%;
@@ -54,12 +59,7 @@
  }
  section.header .header h1 {
     font-size: 4vw;
-    width: 45vw;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: -.1px;
-    position: relative;
-    display: block;
+
 }
 section.header .header p {
     margin-top: 1.3em;
