@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <title>Innovfide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img class="img-responsive brand" src="image/logo.png" alt="CoolBrand"  >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Blog">Blog</a>
+                        </li>
+                        <li class="nav-item active" style=" color:#fff;">
+                            <a class="nav-link selected" href="#Contact" style="color:blue">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid secand">
+                <a class="navbar-brand" href="#">
+                    Contact Us
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- banner -->
+    <section>
+    <div class="container-fluid">
+        <div class="row banner">
+            <div class="col-md-6 line">
+                <div class="side ">
+                    <h3> Get in touch with us</h3>
+                    <p> Contact us for a website, Mobile application, Digital marketing or IT support.</p>
+                </div>
+
+                <div class="row touch">
+                    <div class="col-md-8">
+                    <div class="innovfide">
+                        <img class="img-responsive" src="image/address.png" alt="" style="max-width: 15%;margin-left: -2%;">
+                        <p>Innovfide Technologies
+                            Anulekha, Anurag Nagar, Tulinj,
+                            Nallasopara East</p>
+                    </div>
+                    <div class="innovfide">
+                        <img class="img-responsive" src="image/email.png" alt="" style="max-width: 15%; margin-left: -15%;">
+                        <p>business@Innovfide.com</p>
+                    </div>
+                    <div class="innovfide">
+                        <img class="img-responsive" src="image/phone.png" alt="" style="max-width: 15%; margin-left: -37%;">
+                        <p>+918767484648</p>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form name="contactForm" onsubmit="return validateForm()" action="/examples/actions/confirmation.php" method="post">
+                    <div class="row line1">
+                        <div class="col-md-6">
+                    <div class="line2">
+                        <label>FirstName :<span>*</span></label>
+                        <input type="text" name="firstname"  placeholder="Please enter your First name">
+                        <div class="error" id="firstnameErr"></div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="line2">
+                        <label>LastName :<span>*</span></label>
+                        <input type="text" name="lastname" placeholder="Please enter your Last name">
+                        <div class="error" id="lastnameErr"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6">
+                        <div class="line2">
+
+                        <label>Email :<span>*</span></label>
+                        <input type="text" name="email" placeholder="Please enter your Email">
+                        <div class="error" id="emailErr"></div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="line2">
+                        <label>Phone:<span>*</span></label>
+                        <input type="text" name="Phone" maxlength="10"placeholder="Please enter your Phone">
+                        <div class="error" id="PhoneErr"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                    <div class="line2">
+                        <label>Do you have a website?<span>*</span></label>
+                        <div class="form-inline">
+                            <label><input type="radio" name="gender" value="male"> Yes</label>
+                            <label><input type="radio" name="gender" value="female"> No</label>
+                        </div>
+                        <div class="error" id="genderErr"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label>website URL</label>
+                        <input type="text" name="url"placeholder="Please enter your website URL">
+                        <div class="error" id="urlErr"></div>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+
+        </div>
+    </div>
+</section>
+<!--/.Footer Links-->
+<hr class="mb-0">
+<!--Copyright-->
+<div class="py-3 text-left pl-5">
+  All Rights Reserved|
+  <script>
+    document.write( Date().getFullYear())
+  </script> <a href="#">Innovfide Technologie</a> | 2021
+</div>
+</footer>
+
+ 
+    <script>
+        // Defining a function to display error message
+        function printError(elemId, hintMsg) {
+            document.getElementById(elemId).innerHTML = hintMsg;
+        }
+        
+        // Defining a function to validate form 
+        function validateForm() {
+            // Retrieving the values of form elements 
+            var firstname = document.contactForm.firstname.value;
+            var lastname = document.contactForm.lastname.value;
+            var email = document.contactForm.email.value;
+            var Phone = document.contactForm.Phone.value;
+            var gender = document.contactForm.gender.value;
+            var url= document.contactForm.url.value;
+            var url = [];
+            var checkboxes = document.getElementsByName("url[]");
+            for(var i=0; i < checkboxes.length; i++) {
+                if(checkboxes[i].checked) {
+                    // Populate urlarray with selected values
+                    url.push(checkboxes[i].value);
+                }
+            }
+            
+            // Defining error variables with a default value
+            var firstnameErr = lastnameErr = emailErr = PhoneErr  = genderErr =urlErr = true;
+            
+            // Validate name
+            if(firstname == "") {
+                printError("firstnameErr", "Please enter your name");
+            } else {
+                var regex = /^[a-zA-Z\s]+$/;                
+                if(regex.test(firstname) === false) {
+                    printError("firstnameErr", "Please enter a valid name");
+                } else {
+                    printError("firstnameErr", "");
+                    firstnameErr = false;
+                }
+            }
+            
+
+            if(lastname == "") {
+                printError("lastnameErr", "Please enter your name");
+            } else {
+                var regex = /^[a-zA-Z\s]+$/;                
+                if(regex.test(lastname) === false) {
+                    printError("lastnameErr", "Please enter a valid name");
+                } else {
+                    printError("lastnameErr", "");
+                    lastnameErr = false;
+                }
+            }
+            // Validate email address
+            if(email == "") {
+                printError("emailErr", "Please enter your email address");
+            } else {
+                // Regular expression for basic email validation
+                var regex = /^\S+@\S+\.\S+$/;
+                if(regex.test(email) === false) {
+                    printError("emailErr", "Please enter a valid email address");
+                } else{
+                    printError("emailErr", "");
+                    emailErr = false;
+                }
+            }
+            
+            // Validate Phone number
+            if(Phone == "") {
+                printError("PhoneErr", "Please enter your Phone number");
+            } else {
+                var regex = /^[1-9]\d{9}$/;
+                if(regex.test(Phone) === false) {
+                    printError("PhoneErr", "Please enter a valid 10 digit Phone number");
+                } else{
+                    printError("PhoneErr", "");
+                    PhoneErr = false;
+                }
+            }
+            
+         
+            
+            // Validate gender
+            if(gender == "") {
+                printError("genderErr", "Please select your choice");
+            } else {
+                printError("genderErr", "");
+                genderErr = false;
+            }
+            // Validate url
+            if(url == "") {
+                printError("urlErr", "Please inter your url");
+            } else {
+                printError("urlErr", "");
+                urlErr = false;
+            }
+            
+            
+            // Prevent the form from being submitted if there are any errors
+            if((firstnameErr || lastnameErr || emailErr || PhoneErr || genderErr ||urlErr) == true) {
+               return false;
+            } else {
+                // Creating a string from input data for preview
+                var dataPreview = "You've entered the following details: \n" +
+                                  "Full Name: " + firstname + "\n" +
+                                  "lastname " + lastname + "\n" +
+                                  "Email Address: " + email + "\n" +
+                                  "Phone Number: " + Phone + "\n" +
+                                   "Gender: " + gender + "\n";
+                                   "url: " + url + "\n";
+
+                if(Err.length) {
+                    dataPreview += "Phone: " + Err.join(", ");
+                }
+                // Display input data in a dialog box before submitting the form
+                alert(dataPreview);
+            }
+        };
+        </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

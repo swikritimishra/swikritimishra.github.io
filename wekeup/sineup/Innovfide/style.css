@@ -1,0 +1,188 @@
+* {
+  font-size: 100%;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav {
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.nav-item a {
+    color: #000000;
+}
+
+.selected {
+    border-bottom: 1px solid #520cd3;
+}
+.navbar {
+    padding-bottom: 0%;
+}
+.nav-item {
+    padding-left: 2px;
+}
+
+.navbar-brand {
+
+    padding-left: 100px;
+}
+
+#navbar button {
+    color: #000000;
+}
+
+/* navbar2 */
+
+.secand {
+
+    background-color: #263ec5;
+    color: white !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secand .nav-item a {
+    color: white !important;
+}
+
+.secand .navbar-brand {
+    color: white !important;
+    padding-left: 100px;
+}
+.innovfide {
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innovfide p{
+    padding-left: 20%;
+    margin: 0%;
+}
+
+/* banner */
+.side h3 {
+    padding-top: 10%;
+    padding-left: 10%;
+} 
+
+.side p {
+    padding-left: 10%;
+}
+.line {
+    border-right: 3px dashed #d9d9d9;
+    
+}
+.touch{
+ padding-left: 10%;
+}
+
+
+ form {
+    padding: 15px 40px 40px;
+    margin: 50px auto 0;
+   }
+     
+   label {
+padding-top: 5%;
+
+} 
+
+label i {
+    color: #999;
+    font-size: 40%;
+}
+
+.line2{
+    width: 92%;
+   
+}
+
+::placeholder { 
+    color: #d9d9d9;
+    font-size: 70%;
+  }
+ .line2 span{
+      color: red;
+  }
+input, select {
+    font-size: 110%;
+    font-weight: 100;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.brand{
+    width: 15%;
+} 
+.form-inline {
+    padding: 8px 10px 4px;
+    
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type="submit"] {
+    background: #ff995b;
+    border-color: #ff995b;
+    width: 20%;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #ff99f6;
+}
+   /* footer */
+
+   hr {
+    margin: 0px;
+   }
+
+    /* media */
+      /* @media only screen and (max-width: 987px) {
+        .navbar-brand {
+            padding-left: 10px;
+        }
+    }  */
+
+    @media only screen and (max-width: 768px) {
+             .line {
+            border-right: none;
+            
+        }
+        input[type="submit"] {
+         width: 25%;
+        }
+        .brand{
+            width: 30%;
+            padding-left: 0%;
+        }
+        }
+
+         @media (max-width: 767px) { 
+            .brand {
+
+                max-width: 197px;
+                margin-top: -12px;
+                margin-left: -38%;
+            }
+         } 
